@@ -1,0 +1,2 @@
+/usr/bin/ar cr libunzip.a  CMakeFiles/unzip.dir/unzip.o
+/usr/bin/ranlib libunzip.a
