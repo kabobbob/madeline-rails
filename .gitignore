@@ -2,4 +2,5 @@
 *.o
 *.gmo
 *.cmake
+CMakeCache.txt
 src/madeline2
