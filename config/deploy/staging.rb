@@ -1,7 +1,7 @@
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 
-set :application, 'DataMigrator'
-set :repository, 'git@github.com:dhselph/adm.git'
+set :application, 'Madeline'
+set :repository, 'git@github.com:kabobbob/madeline-rails.git'
 set :scm, 'git'
 set :user, 'arty'
 set :deploy_to, "/home/#{user}/#{application}"
@@ -10,24 +10,22 @@ set :use_sudo, false
 
 role :app, '160.129.37.203'
 
-after "deploy:update", "config:symlink", "config:bundle"
+after "deploy:update", "build:configure", "build:make"
 
-namespace :config do
-  task :symlink do
-    run "ln -sfn /home/#{user}/Artemis/shared/xapable #{release_path}/xapable"  
-    run "ln -sfn #{shared_path}/config/source_db.yml #{release_path}/config/source_db.yml"
-    run "ln -sfn #{shared_path}/config/destination_db.yml #{release_path}/config/destination_db.yml"  
+namespace :build do
+  task :configure do
+    run "cd #{current_path} && ./configure"
   end
-  
-  task :bundle do 
-    run "cd #{current_path} && bundle install --path #{shared_path}/bundle"
+
+  task :make do
+    run "cd #{current_path} && make"
   end
 end
 
 namespace :deploy do
   task :finalize_update do
   end
-  
-  task :restart do  
-  end 
+
+  task :restart do
+  end
 end
