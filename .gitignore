@@ -1,0 +1,5 @@
+*.a
+*.o
+*.gmo
+*.cmake
+src/madeline2
