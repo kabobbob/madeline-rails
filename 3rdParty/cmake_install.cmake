@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty
+# Install script for directory: /Users/kabob/workspace/madeline/3rdParty
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/cmake_install.cmake")
+  INCLUDE("/Users/kabob/workspace/madeline/3rdParty/unzip/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

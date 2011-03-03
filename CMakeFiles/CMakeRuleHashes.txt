@@ -1,6 +1,6 @@
 # Hashes of file build rules.
-53da5c7b225b77dc97bbfbca5a7aa9ed po/CMakeFiles/translations
-cd3ba533b5b82592dc1a5b5fa7a8209b po/fr.gmo
-583c601eee1f1e8a00832db76dbab749 po/th.gmo
-381c3c5bc1bb5550800f20fd591cacc0 po/zh_CN.gmo
-8f188281166de1a62f5e0a3726666766 po/zh_TW.gmo
+57a8962b2e1319afb5d1b71408fd880c po/CMakeFiles/translations
+ff3d308c0b94915cacddbeb05140cc0b po/fr.gmo
+e94b836d19301a5a59207e2c4ec986b8 po/th.gmo
+9222e15a739123afed36a9153c4635ab po/zh_CN.gmo
+30bfdfdb653d6dc3877dd27d94626bc5 po/zh_TW.gmo

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip
+# Install script for directory: /Users/kabob/workspace/madeline/3rdParty/unzip
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

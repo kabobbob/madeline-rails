@@ -1,3 +1,3 @@
-/Users/kabob/tmp/madeline2/madeline2/trunk/src/CMakeFiles/madeline2.dir
-/Users/kabob/tmp/madeline2/madeline2/trunk/po/CMakeFiles/translations.dir
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/CMakeFiles/unzip.dir
+/Users/kabob/workspace/madeline/src/CMakeFiles/madeline2.dir
+/Users/kabob/workspace/madeline/po/CMakeFiles/translations.dir
+/Users/kabob/workspace/madeline/3rdParty/unzip/CMakeFiles/unzip.dir

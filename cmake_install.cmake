@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kabob/tmp/madeline2/madeline2/trunk
+# Install script for directory: /Users/kabob/workspace/madeline
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,10 +29,10 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/cmake_install.cmake")
-  INCLUDE("/Users/kabob/tmp/madeline2/madeline2/trunk/po/cmake_install.cmake")
-  INCLUDE("/Users/kabob/tmp/madeline2/madeline2/trunk/doxygen/cmake_install.cmake")
-  INCLUDE("/Users/kabob/tmp/madeline2/madeline2/trunk/src/cmake_install.cmake")
+  INCLUDE("/Users/kabob/workspace/madeline/3rdParty/cmake_install.cmake")
+  INCLUDE("/Users/kabob/workspace/madeline/po/cmake_install.cmake")
+  INCLUDE("/Users/kabob/workspace/madeline/doxygen/cmake_install.cmake")
+  INCLUDE("/Users/kabob/workspace/madeline/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -42,7 +42,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/Users/kabob/tmp/madeline2/madeline2/trunk/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/Users/kabob/workspace/madeline/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/Users/kabob/tmp/madeline2/madeline2/trunk/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/Users/kabob/workspace/madeline/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

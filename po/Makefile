@@ -39,10 +39,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_SOURCE_DIR = /Users/kabob/workspace/madeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_BINARY_DIR = /Users/kabob/workspace/madeline
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles /Users/kabob/tmp/madeline2/madeline2/trunk/po/CMakeFiles/progress.marks
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles 0
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/workspace/madeline/CMakeFiles /Users/kabob/workspace/madeline/po/CMakeFiles/progress.marks
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/workspace/madeline/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 po/clean
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 po/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 po/CMakeFiles/translations.dir/rule:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/translations.dir/rule
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/translations.dir/rule
 .PHONY : po/CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -160,7 +160,7 @@ translations: po/CMakeFiles/translations.dir/rule
 
 # fast build rule for target.
 translations/fast:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f po/CMakeFiles/translations.dir/build.make po/CMakeFiles/translations.dir/build
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f po/CMakeFiles/translations.dir/build.make po/CMakeFiles/translations.dir/build
 .PHONY : translations/fast
 
 # Help Target
@@ -188,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

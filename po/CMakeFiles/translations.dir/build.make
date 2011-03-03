@@ -35,10 +35,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_SOURCE_DIR = /Users/kabob/workspace/madeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_BINARY_DIR = /Users/kabob/workspace/madeline
 
 # Utility rule file for translations.
 
@@ -49,27 +49,27 @@ po/CMakeFiles/translations: po/zh_TW.gmo
 
 po/fr.gmo: po/madeline2.pot
 po/fr.gmo: po/fr.po
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating fr.gmo"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/po && /opt/local/bin/msgfmt -o /Users/kabob/tmp/madeline2/madeline2/trunk/po/fr.gmo /Users/kabob/tmp/madeline2/madeline2/trunk/po/fr.po
+	cd /Users/kabob/workspace/madeline/po && /opt/local/bin/msgfmt -o /Users/kabob/workspace/madeline/po/fr.gmo /Users/kabob/workspace/madeline/po/fr.po
 
 po/th.gmo: po/madeline2.pot
 po/th.gmo: po/th.po
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating th.gmo"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/po && /opt/local/bin/msgfmt -o /Users/kabob/tmp/madeline2/madeline2/trunk/po/th.gmo /Users/kabob/tmp/madeline2/madeline2/trunk/po/th.po
+	cd /Users/kabob/workspace/madeline/po && /opt/local/bin/msgfmt -o /Users/kabob/workspace/madeline/po/th.gmo /Users/kabob/workspace/madeline/po/th.po
 
 po/zh_CN.gmo: po/madeline2.pot
 po/zh_CN.gmo: po/zh_CN.po
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating zh_CN.gmo"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/po && /opt/local/bin/msgfmt -o /Users/kabob/tmp/madeline2/madeline2/trunk/po/zh_CN.gmo /Users/kabob/tmp/madeline2/madeline2/trunk/po/zh_CN.po
+	cd /Users/kabob/workspace/madeline/po && /opt/local/bin/msgfmt -o /Users/kabob/workspace/madeline/po/zh_CN.gmo /Users/kabob/workspace/madeline/po/zh_CN.po
 
 po/zh_TW.gmo: po/madeline2.pot
 po/zh_TW.gmo: po/zh_TW.po
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating zh_TW.gmo"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/po && /opt/local/bin/msgfmt -o /Users/kabob/tmp/madeline2/madeline2/trunk/po/zh_TW.gmo /Users/kabob/tmp/madeline2/madeline2/trunk/po/zh_TW.po
+	cd /Users/kabob/workspace/madeline/po && /opt/local/bin/msgfmt -o /Users/kabob/workspace/madeline/po/zh_TW.gmo /Users/kabob/workspace/madeline/po/zh_TW.po
 
 translations: po/CMakeFiles/translations
 translations: po/fr.gmo
@@ -84,10 +84,10 @@ po/CMakeFiles/translations.dir/build: translations
 .PHONY : po/CMakeFiles/translations.dir/build
 
 po/CMakeFiles/translations.dir/clean:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/po && $(CMAKE_COMMAND) -P CMakeFiles/translations.dir/cmake_clean.cmake
+	cd /Users/kabob/workspace/madeline/po && $(CMAKE_COMMAND) -P CMakeFiles/translations.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/translations.dir/clean
 
 po/CMakeFiles/translations.dir/depend:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kabob/tmp/madeline2/madeline2/trunk /Users/kabob/tmp/madeline2/madeline2/trunk/po /Users/kabob/tmp/madeline2/madeline2/trunk /Users/kabob/tmp/madeline2/madeline2/trunk/po /Users/kabob/tmp/madeline2/madeline2/trunk/po/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kabob/workspace/madeline /Users/kabob/workspace/madeline/po /Users/kabob/workspace/madeline /Users/kabob/workspace/madeline/po /Users/kabob/workspace/madeline/po/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/translations.dir/depend
 

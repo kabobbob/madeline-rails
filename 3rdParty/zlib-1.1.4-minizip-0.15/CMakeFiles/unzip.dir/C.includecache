@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/unzip.c
+/Users/kabob/workspace/madeline/3rdParty/unzip/unzip.c
 stdio.h
 -
 stdlib.h
@@ -14,9 +14,9 @@ stdlib.h
 string.h
 -
 zlib.h
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/zlib.h
+/Users/kabob/workspace/madeline/3rdParty/unzip/zlib.h
 unzip.h
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/unzip.h
+/Users/kabob/workspace/madeline/3rdParty/unzip/unzip.h
 stddef.h
 -
 string.h
@@ -26,7 +26,7 @@ stdlib.h
 errno.h
 -
 
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/unzip.h
+/Users/kabob/workspace/madeline/3rdParty/unzip/unzip.h
 zlib.h
-/Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/zlib.h
+/Users/kabob/workspace/madeline/3rdParty/unzip/zlib.h
 

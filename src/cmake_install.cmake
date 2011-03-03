@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kabob/tmp/madeline2/madeline2/trunk/src
+# Install script for directory: /Users/kabob/workspace/madeline/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,7 +28,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/kabob/tmp/madeline2/madeline2/trunk/src/madeline2")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/kabob/workspace/madeline/src/madeline2")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/madeline2")
     IF(CMAKE_INSTALL_DO_STRIP)
       EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/madeline2")

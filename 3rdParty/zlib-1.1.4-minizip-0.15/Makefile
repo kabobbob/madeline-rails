@@ -39,10 +39,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_SOURCE_DIR = /Users/kabob/workspace/madeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_BINARY_DIR = /Users/kabob/workspace/madeline
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles /Users/kabob/tmp/madeline2/madeline2/trunk/3rdParty/unzip/CMakeFiles/progress.marks
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles 0
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/workspace/madeline/CMakeFiles /Users/kabob/workspace/madeline/3rdParty/unzip/CMakeFiles/progress.marks
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kabob/workspace/madeline/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/clean
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/preinstall
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/preinstall
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdParty/unzip/CMakeFiles/unzip.dir/rule:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/CMakeFiles/unzip.dir/rule
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/unzip/CMakeFiles/unzip.dir/rule
 .PHONY : 3rdParty/unzip/CMakeFiles/unzip.dir/rule
 
 # Convenience name for target.
@@ -160,22 +160,22 @@ unzip: 3rdParty/unzip/CMakeFiles/unzip.dir/rule
 
 # fast build rule for target.
 unzip/fast:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/build
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/build
 .PHONY : unzip/fast
 
 # target to build an object file
 unzip.o:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.o
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.o
 .PHONY : unzip.o
 
 # target to preprocess a source file
 unzip.i:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.i
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.i
 .PHONY : unzip.i
 
 # target to generate assembly for a file
 unzip.s:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.s
+	cd /Users/kabob/workspace/madeline && $(MAKE) -f 3rdParty/unzip/CMakeFiles/unzip.dir/build.make 3rdParty/unzip/CMakeFiles/unzip.dir/unzip.s
 .PHONY : unzip.s
 
 # Help Target
@@ -206,6 +206,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

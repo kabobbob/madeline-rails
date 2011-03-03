@@ -35,10 +35,10 @@ RM = /opt/local/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_SOURCE_DIR = /Users/kabob/workspace/madeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kabob/tmp/madeline2/madeline2/trunk
+CMAKE_BINARY_DIR = /Users/kabob/workspace/madeline
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/madeline2.dir/depend.make
@@ -51,17 +51,17 @@ include src/CMakeFiles/madeline2.dir/flags.make
 
 src/CMakeFiles/madeline2.dir/Affected.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Affected.o: src/Affected.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Affected.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Affected.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Affected.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Affected.o -c /Users/kabob/workspace/madeline/src/Affected.cpp
 
 src/CMakeFiles/madeline2.dir/Affected.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Affected.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Affected.cpp > CMakeFiles/madeline2.dir/Affected.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Affected.cpp > CMakeFiles/madeline2.dir/Affected.i
 
 src/CMakeFiles/madeline2.dir/Affected.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Affected.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Affected.cpp -o CMakeFiles/madeline2.dir/Affected.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Affected.cpp -o CMakeFiles/madeline2.dir/Affected.s
 
 src/CMakeFiles/madeline2.dir/Affected.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Affected.o.requires
@@ -75,17 +75,17 @@ src/CMakeFiles/madeline2.dir/Affected.o.provides.build: src/CMakeFiles/madeline2
 
 src/CMakeFiles/madeline2.dir/Boolean.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Boolean.o: src/Boolean.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Boolean.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Boolean.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Boolean.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Boolean.o -c /Users/kabob/workspace/madeline/src/Boolean.cpp
 
 src/CMakeFiles/madeline2.dir/Boolean.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Boolean.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Boolean.cpp > CMakeFiles/madeline2.dir/Boolean.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Boolean.cpp > CMakeFiles/madeline2.dir/Boolean.i
 
 src/CMakeFiles/madeline2.dir/Boolean.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Boolean.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Boolean.cpp -o CMakeFiles/madeline2.dir/Boolean.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Boolean.cpp -o CMakeFiles/madeline2.dir/Boolean.s
 
 src/CMakeFiles/madeline2.dir/Boolean.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Boolean.o.requires
@@ -99,17 +99,17 @@ src/CMakeFiles/madeline2.dir/Boolean.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/Carrier.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Carrier.o: src/Carrier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Carrier.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Carrier.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Carrier.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Carrier.o -c /Users/kabob/workspace/madeline/src/Carrier.cpp
 
 src/CMakeFiles/madeline2.dir/Carrier.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Carrier.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Carrier.cpp > CMakeFiles/madeline2.dir/Carrier.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Carrier.cpp > CMakeFiles/madeline2.dir/Carrier.i
 
 src/CMakeFiles/madeline2.dir/Carrier.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Carrier.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Carrier.cpp -o CMakeFiles/madeline2.dir/Carrier.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Carrier.cpp -o CMakeFiles/madeline2.dir/Carrier.s
 
 src/CMakeFiles/madeline2.dir/Carrier.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Carrier.o.requires
@@ -123,17 +123,17 @@ src/CMakeFiles/madeline2.dir/Carrier.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/CLP.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/CLP.o: src/CLP.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/CLP.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/CLP.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/CLP.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/CLP.o -c /Users/kabob/workspace/madeline/src/CLP.cpp
 
 src/CMakeFiles/madeline2.dir/CLP.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/CLP.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/CLP.cpp > CMakeFiles/madeline2.dir/CLP.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/CLP.cpp > CMakeFiles/madeline2.dir/CLP.i
 
 src/CMakeFiles/madeline2.dir/CLP.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/CLP.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/CLP.cpp -o CMakeFiles/madeline2.dir/CLP.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/CLP.cpp -o CMakeFiles/madeline2.dir/CLP.s
 
 src/CMakeFiles/madeline2.dir/CLP.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/CLP.o.requires
@@ -147,17 +147,17 @@ src/CMakeFiles/madeline2.dir/CLP.o.provides.build: src/CMakeFiles/madeline2.dir/
 
 src/CMakeFiles/madeline2.dir/ColorSeries.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/ColorSeries.o: src/ColorSeries.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/ColorSeries.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColorSeries.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeries.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColorSeries.o -c /Users/kabob/workspace/madeline/src/ColorSeries.cpp
 
 src/CMakeFiles/madeline2.dir/ColorSeries.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/ColorSeries.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeries.cpp > CMakeFiles/madeline2.dir/ColorSeries.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/ColorSeries.cpp > CMakeFiles/madeline2.dir/ColorSeries.i
 
 src/CMakeFiles/madeline2.dir/ColorSeries.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/ColorSeries.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeries.cpp -o CMakeFiles/madeline2.dir/ColorSeries.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/ColorSeries.cpp -o CMakeFiles/madeline2.dir/ColorSeries.s
 
 src/CMakeFiles/madeline2.dir/ColorSeries.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/ColorSeries.o.requires
@@ -171,17 +171,17 @@ src/CMakeFiles/madeline2.dir/ColorSeries.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/ColorSeriesStack.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/ColorSeriesStack.o: src/ColorSeriesStack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/ColorSeriesStack.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColorSeriesStack.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeriesStack.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColorSeriesStack.o -c /Users/kabob/workspace/madeline/src/ColorSeriesStack.cpp
 
 src/CMakeFiles/madeline2.dir/ColorSeriesStack.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/ColorSeriesStack.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeriesStack.cpp > CMakeFiles/madeline2.dir/ColorSeriesStack.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/ColorSeriesStack.cpp > CMakeFiles/madeline2.dir/ColorSeriesStack.i
 
 src/CMakeFiles/madeline2.dir/ColorSeriesStack.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/ColorSeriesStack.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColorSeriesStack.cpp -o CMakeFiles/madeline2.dir/ColorSeriesStack.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/ColorSeriesStack.cpp -o CMakeFiles/madeline2.dir/ColorSeriesStack.s
 
 src/CMakeFiles/madeline2.dir/ColorSeriesStack.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/ColorSeriesStack.o.requires
@@ -195,17 +195,17 @@ src/CMakeFiles/madeline2.dir/ColorSeriesStack.o.provides.build: src/CMakeFiles/m
 
 src/CMakeFiles/madeline2.dir/ColumnClassifier.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/ColumnClassifier.o: src/ColumnClassifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/ColumnClassifier.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColumnClassifier.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColumnClassifier.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/ColumnClassifier.o -c /Users/kabob/workspace/madeline/src/ColumnClassifier.cpp
 
 src/CMakeFiles/madeline2.dir/ColumnClassifier.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/ColumnClassifier.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColumnClassifier.cpp > CMakeFiles/madeline2.dir/ColumnClassifier.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/ColumnClassifier.cpp > CMakeFiles/madeline2.dir/ColumnClassifier.i
 
 src/CMakeFiles/madeline2.dir/ColumnClassifier.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/ColumnClassifier.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/ColumnClassifier.cpp -o CMakeFiles/madeline2.dir/ColumnClassifier.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/ColumnClassifier.cpp -o CMakeFiles/madeline2.dir/ColumnClassifier.s
 
 src/CMakeFiles/madeline2.dir/ColumnClassifier.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/ColumnClassifier.o.requires
@@ -219,17 +219,17 @@ src/CMakeFiles/madeline2.dir/ColumnClassifier.o.provides.build: src/CMakeFiles/m
 
 src/CMakeFiles/madeline2.dir/Compressor.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Compressor.o: src/Compressor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Compressor.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Compressor.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Compressor.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Compressor.o -c /Users/kabob/workspace/madeline/src/Compressor.cpp
 
 src/CMakeFiles/madeline2.dir/Compressor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Compressor.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Compressor.cpp > CMakeFiles/madeline2.dir/Compressor.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Compressor.cpp > CMakeFiles/madeline2.dir/Compressor.i
 
 src/CMakeFiles/madeline2.dir/Compressor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Compressor.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Compressor.cpp -o CMakeFiles/madeline2.dir/Compressor.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Compressor.cpp -o CMakeFiles/madeline2.dir/Compressor.s
 
 src/CMakeFiles/madeline2.dir/Compressor.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Compressor.o.requires
@@ -243,17 +243,17 @@ src/CMakeFiles/madeline2.dir/Compressor.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/Consultand.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Consultand.o: src/Consultand.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Consultand.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Consultand.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Consultand.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Consultand.o -c /Users/kabob/workspace/madeline/src/Consultand.cpp
 
 src/CMakeFiles/madeline2.dir/Consultand.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Consultand.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Consultand.cpp > CMakeFiles/madeline2.dir/Consultand.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Consultand.cpp > CMakeFiles/madeline2.dir/Consultand.i
 
 src/CMakeFiles/madeline2.dir/Consultand.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Consultand.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Consultand.cpp -o CMakeFiles/madeline2.dir/Consultand.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Consultand.cpp -o CMakeFiles/madeline2.dir/Consultand.s
 
 src/CMakeFiles/madeline2.dir/Consultand.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Consultand.o.requires
@@ -267,17 +267,17 @@ src/CMakeFiles/madeline2.dir/Consultand.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/Data.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Data.o: src/Data.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Data.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Data.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Data.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Data.o -c /Users/kabob/workspace/madeline/src/Data.cpp
 
 src/CMakeFiles/madeline2.dir/Data.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Data.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Data.cpp > CMakeFiles/madeline2.dir/Data.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Data.cpp > CMakeFiles/madeline2.dir/Data.i
 
 src/CMakeFiles/madeline2.dir/Data.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Data.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Data.cpp -o CMakeFiles/madeline2.dir/Data.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Data.cpp -o CMakeFiles/madeline2.dir/Data.s
 
 src/CMakeFiles/madeline2.dir/Data.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Data.o.requires
@@ -291,17 +291,17 @@ src/CMakeFiles/madeline2.dir/Data.o.provides.build: src/CMakeFiles/madeline2.dir
 
 src/CMakeFiles/madeline2.dir/DataColumn.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DataColumn.o: src/DataColumn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DataColumn.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DataColumn.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataColumn.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DataColumn.o -c /Users/kabob/workspace/madeline/src/DataColumn.cpp
 
 src/CMakeFiles/madeline2.dir/DataColumn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DataColumn.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataColumn.cpp > CMakeFiles/madeline2.dir/DataColumn.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DataColumn.cpp > CMakeFiles/madeline2.dir/DataColumn.i
 
 src/CMakeFiles/madeline2.dir/DataColumn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DataColumn.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataColumn.cpp -o CMakeFiles/madeline2.dir/DataColumn.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DataColumn.cpp -o CMakeFiles/madeline2.dir/DataColumn.s
 
 src/CMakeFiles/madeline2.dir/DataColumn.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DataColumn.o.requires
@@ -315,17 +315,17 @@ src/CMakeFiles/madeline2.dir/DataColumn.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/DataTable.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DataTable.o: src/DataTable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DataTable.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DataTable.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataTable.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DataTable.o -c /Users/kabob/workspace/madeline/src/DataTable.cpp
 
 src/CMakeFiles/madeline2.dir/DataTable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DataTable.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataTable.cpp > CMakeFiles/madeline2.dir/DataTable.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DataTable.cpp > CMakeFiles/madeline2.dir/DataTable.i
 
 src/CMakeFiles/madeline2.dir/DataTable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DataTable.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DataTable.cpp -o CMakeFiles/madeline2.dir/DataTable.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DataTable.cpp -o CMakeFiles/madeline2.dir/DataTable.s
 
 src/CMakeFiles/madeline2.dir/DataTable.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DataTable.o.requires
@@ -339,17 +339,17 @@ src/CMakeFiles/madeline2.dir/DataTable.o.provides.build: src/CMakeFiles/madeline
 
 src/CMakeFiles/madeline2.dir/Date.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Date.o: src/Date.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Date.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Date.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Date.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Date.o -c /Users/kabob/workspace/madeline/src/Date.cpp
 
 src/CMakeFiles/madeline2.dir/Date.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Date.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Date.cpp > CMakeFiles/madeline2.dir/Date.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Date.cpp > CMakeFiles/madeline2.dir/Date.i
 
 src/CMakeFiles/madeline2.dir/Date.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Date.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Date.cpp -o CMakeFiles/madeline2.dir/Date.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Date.cpp -o CMakeFiles/madeline2.dir/Date.s
 
 src/CMakeFiles/madeline2.dir/Date.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Date.o.requires
@@ -363,17 +363,17 @@ src/CMakeFiles/madeline2.dir/Date.o.provides.build: src/CMakeFiles/madeline2.dir
 
 src/CMakeFiles/madeline2.dir/Debug.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Debug.o: src/Debug.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Debug.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Debug.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Debug.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Debug.o -c /Users/kabob/workspace/madeline/src/Debug.cpp
 
 src/CMakeFiles/madeline2.dir/Debug.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Debug.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Debug.cpp > CMakeFiles/madeline2.dir/Debug.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Debug.cpp > CMakeFiles/madeline2.dir/Debug.i
 
 src/CMakeFiles/madeline2.dir/Debug.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Debug.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Debug.cpp -o CMakeFiles/madeline2.dir/Debug.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Debug.cpp -o CMakeFiles/madeline2.dir/Debug.s
 
 src/CMakeFiles/madeline2.dir/Debug.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Debug.o.requires
@@ -387,17 +387,17 @@ src/CMakeFiles/madeline2.dir/Debug.o.provides.build: src/CMakeFiles/madeline2.di
 
 src/CMakeFiles/madeline2.dir/DelimitedTableParser.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DelimitedTableParser.o: src/DelimitedTableParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DelimitedTableParser.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DelimitedTableParser.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DelimitedTableParser.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DelimitedTableParser.o -c /Users/kabob/workspace/madeline/src/DelimitedTableParser.cpp
 
 src/CMakeFiles/madeline2.dir/DelimitedTableParser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DelimitedTableParser.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DelimitedTableParser.cpp > CMakeFiles/madeline2.dir/DelimitedTableParser.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DelimitedTableParser.cpp > CMakeFiles/madeline2.dir/DelimitedTableParser.i
 
 src/CMakeFiles/madeline2.dir/DelimitedTableParser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DelimitedTableParser.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DelimitedTableParser.cpp -o CMakeFiles/madeline2.dir/DelimitedTableParser.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DelimitedTableParser.cpp -o CMakeFiles/madeline2.dir/DelimitedTableParser.s
 
 src/CMakeFiles/madeline2.dir/DelimitedTableParser.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DelimitedTableParser.o.requires
@@ -411,17 +411,17 @@ src/CMakeFiles/madeline2.dir/DelimitedTableParser.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/madeline2.dir/DescentTree.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DescentTree.o: src/DescentTree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DescentTree.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DescentTree.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DescentTree.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DescentTree.o -c /Users/kabob/workspace/madeline/src/DescentTree.cpp
 
 src/CMakeFiles/madeline2.dir/DescentTree.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DescentTree.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DescentTree.cpp > CMakeFiles/madeline2.dir/DescentTree.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DescentTree.cpp > CMakeFiles/madeline2.dir/DescentTree.i
 
 src/CMakeFiles/madeline2.dir/DescentTree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DescentTree.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DescentTree.cpp -o CMakeFiles/madeline2.dir/DescentTree.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DescentTree.cpp -o CMakeFiles/madeline2.dir/DescentTree.s
 
 src/CMakeFiles/madeline2.dir/DescentTree.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DescentTree.o.requires
@@ -435,17 +435,17 @@ src/CMakeFiles/madeline2.dir/DescentTree.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/DigitConverter.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DigitConverter.o: src/DigitConverter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DigitConverter.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DigitConverter.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DigitConverter.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DigitConverter.o -c /Users/kabob/workspace/madeline/src/DigitConverter.cpp
 
 src/CMakeFiles/madeline2.dir/DigitConverter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DigitConverter.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DigitConverter.cpp > CMakeFiles/madeline2.dir/DigitConverter.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DigitConverter.cpp > CMakeFiles/madeline2.dir/DigitConverter.i
 
 src/CMakeFiles/madeline2.dir/DigitConverter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DigitConverter.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DigitConverter.cpp -o CMakeFiles/madeline2.dir/DigitConverter.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DigitConverter.cpp -o CMakeFiles/madeline2.dir/DigitConverter.s
 
 src/CMakeFiles/madeline2.dir/DigitConverter.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DigitConverter.o.requires
@@ -459,17 +459,17 @@ src/CMakeFiles/madeline2.dir/DigitConverter.o.provides.build: src/CMakeFiles/mad
 
 src/CMakeFiles/madeline2.dir/DrawingColor.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DrawingColor.o: src/DrawingColor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DrawingColor.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingColor.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingColor.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingColor.o -c /Users/kabob/workspace/madeline/src/DrawingColor.cpp
 
 src/CMakeFiles/madeline2.dir/DrawingColor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DrawingColor.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingColor.cpp > CMakeFiles/madeline2.dir/DrawingColor.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DrawingColor.cpp > CMakeFiles/madeline2.dir/DrawingColor.i
 
 src/CMakeFiles/madeline2.dir/DrawingColor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DrawingColor.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingColor.cpp -o CMakeFiles/madeline2.dir/DrawingColor.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DrawingColor.cpp -o CMakeFiles/madeline2.dir/DrawingColor.s
 
 src/CMakeFiles/madeline2.dir/DrawingColor.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DrawingColor.o.requires
@@ -483,17 +483,17 @@ src/CMakeFiles/madeline2.dir/DrawingColor.o.provides.build: src/CMakeFiles/madel
 
 src/CMakeFiles/madeline2.dir/DrawingLabelManager.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DrawingLabelManager.o: src/DrawingLabelManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DrawingLabelManager.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingLabelManager.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingLabelManager.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingLabelManager.o -c /Users/kabob/workspace/madeline/src/DrawingLabelManager.cpp
 
 src/CMakeFiles/madeline2.dir/DrawingLabelManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DrawingLabelManager.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingLabelManager.cpp > CMakeFiles/madeline2.dir/DrawingLabelManager.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DrawingLabelManager.cpp > CMakeFiles/madeline2.dir/DrawingLabelManager.i
 
 src/CMakeFiles/madeline2.dir/DrawingLabelManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DrawingLabelManager.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingLabelManager.cpp -o CMakeFiles/madeline2.dir/DrawingLabelManager.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DrawingLabelManager.cpp -o CMakeFiles/madeline2.dir/DrawingLabelManager.s
 
 src/CMakeFiles/madeline2.dir/DrawingLabelManager.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DrawingLabelManager.o.requires
@@ -507,17 +507,17 @@ src/CMakeFiles/madeline2.dir/DrawingLabelManager.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/madeline2.dir/DrawingMetrics.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DrawingMetrics.o: src/DrawingMetrics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DrawingMetrics.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingMetrics.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingMetrics.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingMetrics.o -c /Users/kabob/workspace/madeline/src/DrawingMetrics.cpp
 
 src/CMakeFiles/madeline2.dir/DrawingMetrics.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DrawingMetrics.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingMetrics.cpp > CMakeFiles/madeline2.dir/DrawingMetrics.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DrawingMetrics.cpp > CMakeFiles/madeline2.dir/DrawingMetrics.i
 
 src/CMakeFiles/madeline2.dir/DrawingMetrics.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DrawingMetrics.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingMetrics.cpp -o CMakeFiles/madeline2.dir/DrawingMetrics.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DrawingMetrics.cpp -o CMakeFiles/madeline2.dir/DrawingMetrics.s
 
 src/CMakeFiles/madeline2.dir/DrawingMetrics.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DrawingMetrics.o.requires
@@ -531,17 +531,17 @@ src/CMakeFiles/madeline2.dir/DrawingMetrics.o.provides.build: src/CMakeFiles/mad
 
 src/CMakeFiles/madeline2.dir/DrawingCanvas.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/DrawingCanvas.o: src/DrawingCanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/DrawingCanvas.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingCanvas.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingCanvas.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/DrawingCanvas.o -c /Users/kabob/workspace/madeline/src/DrawingCanvas.cpp
 
 src/CMakeFiles/madeline2.dir/DrawingCanvas.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/DrawingCanvas.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingCanvas.cpp > CMakeFiles/madeline2.dir/DrawingCanvas.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/DrawingCanvas.cpp > CMakeFiles/madeline2.dir/DrawingCanvas.i
 
 src/CMakeFiles/madeline2.dir/DrawingCanvas.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/DrawingCanvas.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/DrawingCanvas.cpp -o CMakeFiles/madeline2.dir/DrawingCanvas.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/DrawingCanvas.cpp -o CMakeFiles/madeline2.dir/DrawingCanvas.s
 
 src/CMakeFiles/madeline2.dir/DrawingCanvas.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/DrawingCanvas.o.requires
@@ -555,17 +555,17 @@ src/CMakeFiles/madeline2.dir/DrawingCanvas.o.provides.build: src/CMakeFiles/made
 
 src/CMakeFiles/madeline2.dir/Exception.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Exception.o: src/Exception.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Exception.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Exception.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Exception.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Exception.o -c /Users/kabob/workspace/madeline/src/Exception.cpp
 
 src/CMakeFiles/madeline2.dir/Exception.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Exception.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Exception.cpp > CMakeFiles/madeline2.dir/Exception.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Exception.cpp > CMakeFiles/madeline2.dir/Exception.i
 
 src/CMakeFiles/madeline2.dir/Exception.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Exception.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Exception.cpp -o CMakeFiles/madeline2.dir/Exception.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Exception.cpp -o CMakeFiles/madeline2.dir/Exception.s
 
 src/CMakeFiles/madeline2.dir/Exception.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Exception.o.requires
@@ -579,17 +579,17 @@ src/CMakeFiles/madeline2.dir/Exception.o.provides.build: src/CMakeFiles/madeline
 
 src/CMakeFiles/madeline2.dir/FieldLabels.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/FieldLabels.o: src/FieldLabels.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/FieldLabels.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/FieldLabels.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/FieldLabels.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/FieldLabels.o -c /Users/kabob/workspace/madeline/src/FieldLabels.cpp
 
 src/CMakeFiles/madeline2.dir/FieldLabels.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/FieldLabels.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/FieldLabels.cpp > CMakeFiles/madeline2.dir/FieldLabels.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/FieldLabels.cpp > CMakeFiles/madeline2.dir/FieldLabels.i
 
 src/CMakeFiles/madeline2.dir/FieldLabels.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/FieldLabels.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/FieldLabels.cpp -o CMakeFiles/madeline2.dir/FieldLabels.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/FieldLabels.cpp -o CMakeFiles/madeline2.dir/FieldLabels.s
 
 src/CMakeFiles/madeline2.dir/FieldLabels.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/FieldLabels.o.requires
@@ -603,17 +603,17 @@ src/CMakeFiles/madeline2.dir/FieldLabels.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/FileTypeClassifier.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/FileTypeClassifier.o: src/FileTypeClassifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/FileTypeClassifier.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/FileTypeClassifier.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/FileTypeClassifier.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/FileTypeClassifier.o -c /Users/kabob/workspace/madeline/src/FileTypeClassifier.cpp
 
 src/CMakeFiles/madeline2.dir/FileTypeClassifier.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/FileTypeClassifier.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/FileTypeClassifier.cpp > CMakeFiles/madeline2.dir/FileTypeClassifier.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/FileTypeClassifier.cpp > CMakeFiles/madeline2.dir/FileTypeClassifier.i
 
 src/CMakeFiles/madeline2.dir/FileTypeClassifier.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/FileTypeClassifier.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/FileTypeClassifier.cpp -o CMakeFiles/madeline2.dir/FileTypeClassifier.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/FileTypeClassifier.cpp -o CMakeFiles/madeline2.dir/FileTypeClassifier.s
 
 src/CMakeFiles/madeline2.dir/FileTypeClassifier.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/FileTypeClassifier.o.requires
@@ -627,17 +627,17 @@ src/CMakeFiles/madeline2.dir/FileTypeClassifier.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/madeline2.dir/Gender.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Gender.o: src/Gender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Gender.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Gender.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Gender.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Gender.o -c /Users/kabob/workspace/madeline/src/Gender.cpp
 
 src/CMakeFiles/madeline2.dir/Gender.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Gender.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Gender.cpp > CMakeFiles/madeline2.dir/Gender.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Gender.cpp > CMakeFiles/madeline2.dir/Gender.i
 
 src/CMakeFiles/madeline2.dir/Gender.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Gender.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Gender.cpp -o CMakeFiles/madeline2.dir/Gender.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Gender.cpp -o CMakeFiles/madeline2.dir/Gender.s
 
 src/CMakeFiles/madeline2.dir/Gender.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Gender.o.requires
@@ -651,17 +651,17 @@ src/CMakeFiles/madeline2.dir/Gender.o.provides.build: src/CMakeFiles/madeline2.d
 
 src/CMakeFiles/madeline2.dir/Genotype.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Genotype.o: src/Genotype.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Genotype.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Genotype.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Genotype.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Genotype.o -c /Users/kabob/workspace/madeline/src/Genotype.cpp
 
 src/CMakeFiles/madeline2.dir/Genotype.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Genotype.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Genotype.cpp > CMakeFiles/madeline2.dir/Genotype.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Genotype.cpp > CMakeFiles/madeline2.dir/Genotype.i
 
 src/CMakeFiles/madeline2.dir/Genotype.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Genotype.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Genotype.cpp -o CMakeFiles/madeline2.dir/Genotype.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Genotype.cpp -o CMakeFiles/madeline2.dir/Genotype.s
 
 src/CMakeFiles/madeline2.dir/Genotype.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Genotype.o.requires
@@ -675,17 +675,17 @@ src/CMakeFiles/madeline2.dir/Genotype.o.provides.build: src/CMakeFiles/madeline2
 
 src/CMakeFiles/madeline2.dir/Haplotype.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Haplotype.o: src/Haplotype.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Haplotype.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Haplotype.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Haplotype.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Haplotype.o -c /Users/kabob/workspace/madeline/src/Haplotype.cpp
 
 src/CMakeFiles/madeline2.dir/Haplotype.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Haplotype.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Haplotype.cpp > CMakeFiles/madeline2.dir/Haplotype.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Haplotype.cpp > CMakeFiles/madeline2.dir/Haplotype.i
 
 src/CMakeFiles/madeline2.dir/Haplotype.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Haplotype.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Haplotype.cpp -o CMakeFiles/madeline2.dir/Haplotype.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Haplotype.cpp -o CMakeFiles/madeline2.dir/Haplotype.s
 
 src/CMakeFiles/madeline2.dir/Haplotype.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Haplotype.o.requires
@@ -699,17 +699,17 @@ src/CMakeFiles/madeline2.dir/Haplotype.o.provides.build: src/CMakeFiles/madeline
 
 src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o: src/HexavigesimalConverter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/HexavigesimalConverter.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/HexavigesimalConverter.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/HexavigesimalConverter.o -c /Users/kabob/workspace/madeline/src/HexavigesimalConverter.cpp
 
 src/CMakeFiles/madeline2.dir/HexavigesimalConverter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/HexavigesimalConverter.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/HexavigesimalConverter.cpp > CMakeFiles/madeline2.dir/HexavigesimalConverter.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/HexavigesimalConverter.cpp > CMakeFiles/madeline2.dir/HexavigesimalConverter.i
 
 src/CMakeFiles/madeline2.dir/HexavigesimalConverter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/HexavigesimalConverter.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/HexavigesimalConverter.cpp -o CMakeFiles/madeline2.dir/HexavigesimalConverter.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/HexavigesimalConverter.cpp -o CMakeFiles/madeline2.dir/HexavigesimalConverter.s
 
 src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o.requires
@@ -723,17 +723,17 @@ src/CMakeFiles/madeline2.dir/HexavigesimalConverter.o.provides.build: src/CMakeF
 
 src/CMakeFiles/madeline2.dir/Individual.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Individual.o: src/Individual.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Individual.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Individual.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Individual.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Individual.o -c /Users/kabob/workspace/madeline/src/Individual.cpp
 
 src/CMakeFiles/madeline2.dir/Individual.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Individual.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Individual.cpp > CMakeFiles/madeline2.dir/Individual.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Individual.cpp > CMakeFiles/madeline2.dir/Individual.i
 
 src/CMakeFiles/madeline2.dir/Individual.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Individual.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Individual.cpp -o CMakeFiles/madeline2.dir/Individual.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Individual.cpp -o CMakeFiles/madeline2.dir/Individual.s
 
 src/CMakeFiles/madeline2.dir/Individual.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Individual.o.requires
@@ -747,17 +747,17 @@ src/CMakeFiles/madeline2.dir/Individual.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/Infertility.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Infertility.o: src/Infertility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Infertility.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Infertility.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Infertility.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Infertility.o -c /Users/kabob/workspace/madeline/src/Infertility.cpp
 
 src/CMakeFiles/madeline2.dir/Infertility.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Infertility.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Infertility.cpp > CMakeFiles/madeline2.dir/Infertility.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Infertility.cpp > CMakeFiles/madeline2.dir/Infertility.i
 
 src/CMakeFiles/madeline2.dir/Infertility.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Infertility.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Infertility.cpp -o CMakeFiles/madeline2.dir/Infertility.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Infertility.cpp -o CMakeFiles/madeline2.dir/Infertility.s
 
 src/CMakeFiles/madeline2.dir/Infertility.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Infertility.o.requires
@@ -771,17 +771,17 @@ src/CMakeFiles/madeline2.dir/Infertility.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/LabelSet.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/LabelSet.o: src/LabelSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/LabelSet.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LabelSet.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/LabelSet.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LabelSet.o -c /Users/kabob/workspace/madeline/src/LabelSet.cpp
 
 src/CMakeFiles/madeline2.dir/LabelSet.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/LabelSet.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/LabelSet.cpp > CMakeFiles/madeline2.dir/LabelSet.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/LabelSet.cpp > CMakeFiles/madeline2.dir/LabelSet.i
 
 src/CMakeFiles/madeline2.dir/LabelSet.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/LabelSet.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/LabelSet.cpp -o CMakeFiles/madeline2.dir/LabelSet.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/LabelSet.cpp -o CMakeFiles/madeline2.dir/LabelSet.s
 
 src/CMakeFiles/madeline2.dir/LabelSet.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/LabelSet.o.requires
@@ -795,17 +795,17 @@ src/CMakeFiles/madeline2.dir/LabelSet.o.provides.build: src/CMakeFiles/madeline2
 
 src/CMakeFiles/madeline2.dir/LASiWrapper.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/LASiWrapper.o: src/LASiWrapper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/LASiWrapper.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LASiWrapper.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/LASiWrapper.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LASiWrapper.o -c /Users/kabob/workspace/madeline/src/LASiWrapper.cpp
 
 src/CMakeFiles/madeline2.dir/LASiWrapper.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/LASiWrapper.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/LASiWrapper.cpp > CMakeFiles/madeline2.dir/LASiWrapper.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/LASiWrapper.cpp > CMakeFiles/madeline2.dir/LASiWrapper.i
 
 src/CMakeFiles/madeline2.dir/LASiWrapper.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/LASiWrapper.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/LASiWrapper.cpp -o CMakeFiles/madeline2.dir/LASiWrapper.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/LASiWrapper.cpp -o CMakeFiles/madeline2.dir/LASiWrapper.s
 
 src/CMakeFiles/madeline2.dir/LASiWrapper.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/LASiWrapper.o.requires
@@ -819,17 +819,17 @@ src/CMakeFiles/madeline2.dir/LASiWrapper.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/LivingDead.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/LivingDead.o: src/LivingDead.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/LivingDead.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LivingDead.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/LivingDead.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/LivingDead.o -c /Users/kabob/workspace/madeline/src/LivingDead.cpp
 
 src/CMakeFiles/madeline2.dir/LivingDead.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/LivingDead.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/LivingDead.cpp > CMakeFiles/madeline2.dir/LivingDead.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/LivingDead.cpp > CMakeFiles/madeline2.dir/LivingDead.i
 
 src/CMakeFiles/madeline2.dir/LivingDead.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/LivingDead.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/LivingDead.cpp -o CMakeFiles/madeline2.dir/LivingDead.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/LivingDead.cpp -o CMakeFiles/madeline2.dir/LivingDead.s
 
 src/CMakeFiles/madeline2.dir/LivingDead.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/LivingDead.o.requires
@@ -843,17 +843,17 @@ src/CMakeFiles/madeline2.dir/LivingDead.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/MadelineTable.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/MadelineTable.o: src/MadelineTable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/MadelineTable.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/MadelineTable.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/MadelineTable.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/MadelineTable.o -c /Users/kabob/workspace/madeline/src/MadelineTable.cpp
 
 src/CMakeFiles/madeline2.dir/MadelineTable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/MadelineTable.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/MadelineTable.cpp > CMakeFiles/madeline2.dir/MadelineTable.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/MadelineTable.cpp > CMakeFiles/madeline2.dir/MadelineTable.i
 
 src/CMakeFiles/madeline2.dir/MadelineTable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/MadelineTable.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/MadelineTable.cpp -o CMakeFiles/madeline2.dir/MadelineTable.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/MadelineTable.cpp -o CMakeFiles/madeline2.dir/MadelineTable.s
 
 src/CMakeFiles/madeline2.dir/MadelineTable.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/MadelineTable.o.requires
@@ -867,17 +867,17 @@ src/CMakeFiles/madeline2.dir/MadelineTable.o.provides.build: src/CMakeFiles/made
 
 src/CMakeFiles/madeline2.dir/Message.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Message.o: src/Message.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Message.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Message.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Message.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Message.o -c /Users/kabob/workspace/madeline/src/Message.cpp
 
 src/CMakeFiles/madeline2.dir/Message.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Message.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Message.cpp > CMakeFiles/madeline2.dir/Message.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Message.cpp > CMakeFiles/madeline2.dir/Message.i
 
 src/CMakeFiles/madeline2.dir/Message.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Message.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Message.cpp -o CMakeFiles/madeline2.dir/Message.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Message.cpp -o CMakeFiles/madeline2.dir/Message.s
 
 src/CMakeFiles/madeline2.dir/Message.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Message.o.requires
@@ -891,17 +891,17 @@ src/CMakeFiles/madeline2.dir/Message.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/Network.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Network.o: src/Network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Network.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Network.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Network.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Network.o -c /Users/kabob/workspace/madeline/src/Network.cpp
 
 src/CMakeFiles/madeline2.dir/Network.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Network.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Network.cpp > CMakeFiles/madeline2.dir/Network.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Network.cpp > CMakeFiles/madeline2.dir/Network.i
 
 src/CMakeFiles/madeline2.dir/Network.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Network.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Network.cpp -o CMakeFiles/madeline2.dir/Network.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Network.cpp -o CMakeFiles/madeline2.dir/Network.s
 
 src/CMakeFiles/madeline2.dir/Network.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Network.o.requires
@@ -915,17 +915,17 @@ src/CMakeFiles/madeline2.dir/Network.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/NuclearFamily.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/NuclearFamily.o: src/NuclearFamily.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/NuclearFamily.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/NuclearFamily.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/NuclearFamily.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/NuclearFamily.o -c /Users/kabob/workspace/madeline/src/NuclearFamily.cpp
 
 src/CMakeFiles/madeline2.dir/NuclearFamily.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/NuclearFamily.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/NuclearFamily.cpp > CMakeFiles/madeline2.dir/NuclearFamily.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/NuclearFamily.cpp > CMakeFiles/madeline2.dir/NuclearFamily.i
 
 src/CMakeFiles/madeline2.dir/NuclearFamily.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/NuclearFamily.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/NuclearFamily.cpp -o CMakeFiles/madeline2.dir/NuclearFamily.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/NuclearFamily.cpp -o CMakeFiles/madeline2.dir/NuclearFamily.s
 
 src/CMakeFiles/madeline2.dir/NuclearFamily.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/NuclearFamily.o.requires
@@ -939,17 +939,17 @@ src/CMakeFiles/madeline2.dir/NuclearFamily.o.provides.build: src/CMakeFiles/made
 
 src/CMakeFiles/madeline2.dir/Number.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Number.o: src/Number.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Number.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Number.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Number.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Number.o -c /Users/kabob/workspace/madeline/src/Number.cpp
 
 src/CMakeFiles/madeline2.dir/Number.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Number.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Number.cpp > CMakeFiles/madeline2.dir/Number.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Number.cpp > CMakeFiles/madeline2.dir/Number.i
 
 src/CMakeFiles/madeline2.dir/Number.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Number.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Number.cpp -o CMakeFiles/madeline2.dir/Number.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Number.cpp -o CMakeFiles/madeline2.dir/Number.s
 
 src/CMakeFiles/madeline2.dir/Number.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Number.o.requires
@@ -963,17 +963,17 @@ src/CMakeFiles/madeline2.dir/Number.o.provides.build: src/CMakeFiles/madeline2.d
 
 src/CMakeFiles/madeline2.dir/Parser.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Parser.o: src/Parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Parser.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Parser.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Parser.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Parser.o -c /Users/kabob/workspace/madeline/src/Parser.cpp
 
 src/CMakeFiles/madeline2.dir/Parser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Parser.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Parser.cpp > CMakeFiles/madeline2.dir/Parser.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Parser.cpp > CMakeFiles/madeline2.dir/Parser.i
 
 src/CMakeFiles/madeline2.dir/Parser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Parser.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Parser.cpp -o CMakeFiles/madeline2.dir/Parser.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Parser.cpp -o CMakeFiles/madeline2.dir/Parser.s
 
 src/CMakeFiles/madeline2.dir/Parser.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Parser.o.requires
@@ -987,17 +987,17 @@ src/CMakeFiles/madeline2.dir/Parser.o.provides.build: src/CMakeFiles/madeline2.d
 
 src/CMakeFiles/madeline2.dir/PedigreeSet.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/PedigreeSet.o: src/PedigreeSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/PedigreeSet.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/PedigreeSet.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/PedigreeSet.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/PedigreeSet.o -c /Users/kabob/workspace/madeline/src/PedigreeSet.cpp
 
 src/CMakeFiles/madeline2.dir/PedigreeSet.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/PedigreeSet.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/PedigreeSet.cpp > CMakeFiles/madeline2.dir/PedigreeSet.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/PedigreeSet.cpp > CMakeFiles/madeline2.dir/PedigreeSet.i
 
 src/CMakeFiles/madeline2.dir/PedigreeSet.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/PedigreeSet.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/PedigreeSet.cpp -o CMakeFiles/madeline2.dir/PedigreeSet.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/PedigreeSet.cpp -o CMakeFiles/madeline2.dir/PedigreeSet.s
 
 src/CMakeFiles/madeline2.dir/PedigreeSet.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/PedigreeSet.o.requires
@@ -1011,17 +1011,17 @@ src/CMakeFiles/madeline2.dir/PedigreeSet.o.provides.build: src/CMakeFiles/madeli
 
 src/CMakeFiles/madeline2.dir/Pedigree.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Pedigree.o: src/Pedigree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Pedigree.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Pedigree.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Pedigree.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Pedigree.o -c /Users/kabob/workspace/madeline/src/Pedigree.cpp
 
 src/CMakeFiles/madeline2.dir/Pedigree.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Pedigree.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Pedigree.cpp > CMakeFiles/madeline2.dir/Pedigree.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Pedigree.cpp > CMakeFiles/madeline2.dir/Pedigree.i
 
 src/CMakeFiles/madeline2.dir/Pedigree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Pedigree.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Pedigree.cpp -o CMakeFiles/madeline2.dir/Pedigree.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Pedigree.cpp -o CMakeFiles/madeline2.dir/Pedigree.s
 
 src/CMakeFiles/madeline2.dir/Pedigree.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Pedigree.o.requires
@@ -1035,17 +1035,17 @@ src/CMakeFiles/madeline2.dir/Pedigree.o.provides.build: src/CMakeFiles/madeline2
 
 src/CMakeFiles/madeline2.dir/Proband.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Proband.o: src/Proband.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Proband.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Proband.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Proband.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Proband.o -c /Users/kabob/workspace/madeline/src/Proband.cpp
 
 src/CMakeFiles/madeline2.dir/Proband.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Proband.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Proband.cpp > CMakeFiles/madeline2.dir/Proband.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Proband.cpp > CMakeFiles/madeline2.dir/Proband.i
 
 src/CMakeFiles/madeline2.dir/Proband.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Proband.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Proband.cpp -o CMakeFiles/madeline2.dir/Proband.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Proband.cpp -o CMakeFiles/madeline2.dir/Proband.s
 
 src/CMakeFiles/madeline2.dir/Proband.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Proband.o.requires
@@ -1059,17 +1059,17 @@ src/CMakeFiles/madeline2.dir/Proband.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/RandomGenerator.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/RandomGenerator.o: src/RandomGenerator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/RandomGenerator.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/RandomGenerator.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/RandomGenerator.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/RandomGenerator.o -c /Users/kabob/workspace/madeline/src/RandomGenerator.cpp
 
 src/CMakeFiles/madeline2.dir/RandomGenerator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/RandomGenerator.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/RandomGenerator.cpp > CMakeFiles/madeline2.dir/RandomGenerator.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/RandomGenerator.cpp > CMakeFiles/madeline2.dir/RandomGenerator.i
 
 src/CMakeFiles/madeline2.dir/RandomGenerator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/RandomGenerator.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/RandomGenerator.cpp -o CMakeFiles/madeline2.dir/RandomGenerator.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/RandomGenerator.cpp -o CMakeFiles/madeline2.dir/RandomGenerator.s
 
 src/CMakeFiles/madeline2.dir/RandomGenerator.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/RandomGenerator.o.requires
@@ -1083,17 +1083,17 @@ src/CMakeFiles/madeline2.dir/RandomGenerator.o.provides.build: src/CMakeFiles/ma
 
 src/CMakeFiles/madeline2.dir/RelationshipEnded.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/RelationshipEnded.o: src/RelationshipEnded.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/RelationshipEnded.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/RelationshipEnded.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/RelationshipEnded.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/RelationshipEnded.o -c /Users/kabob/workspace/madeline/src/RelationshipEnded.cpp
 
 src/CMakeFiles/madeline2.dir/RelationshipEnded.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/RelationshipEnded.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/RelationshipEnded.cpp > CMakeFiles/madeline2.dir/RelationshipEnded.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/RelationshipEnded.cpp > CMakeFiles/madeline2.dir/RelationshipEnded.i
 
 src/CMakeFiles/madeline2.dir/RelationshipEnded.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/RelationshipEnded.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/RelationshipEnded.cpp -o CMakeFiles/madeline2.dir/RelationshipEnded.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/RelationshipEnded.cpp -o CMakeFiles/madeline2.dir/RelationshipEnded.s
 
 src/CMakeFiles/madeline2.dir/RelationshipEnded.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/RelationshipEnded.o.requires
@@ -1107,17 +1107,17 @@ src/CMakeFiles/madeline2.dir/RelationshipEnded.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/madeline2.dir/Sampled.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Sampled.o: src/Sampled.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Sampled.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Sampled.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sampled.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Sampled.o -c /Users/kabob/workspace/madeline/src/Sampled.cpp
 
 src/CMakeFiles/madeline2.dir/Sampled.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Sampled.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sampled.cpp > CMakeFiles/madeline2.dir/Sampled.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Sampled.cpp > CMakeFiles/madeline2.dir/Sampled.i
 
 src/CMakeFiles/madeline2.dir/Sampled.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Sampled.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sampled.cpp -o CMakeFiles/madeline2.dir/Sampled.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Sampled.cpp -o CMakeFiles/madeline2.dir/Sampled.s
 
 src/CMakeFiles/madeline2.dir/Sampled.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Sampled.o.requires
@@ -1131,17 +1131,17 @@ src/CMakeFiles/madeline2.dir/Sampled.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/Sterility.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Sterility.o: src/Sterility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Sterility.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Sterility.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sterility.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Sterility.o -c /Users/kabob/workspace/madeline/src/Sterility.cpp
 
 src/CMakeFiles/madeline2.dir/Sterility.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Sterility.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sterility.cpp > CMakeFiles/madeline2.dir/Sterility.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Sterility.cpp > CMakeFiles/madeline2.dir/Sterility.i
 
 src/CMakeFiles/madeline2.dir/Sterility.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Sterility.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Sterility.cpp -o CMakeFiles/madeline2.dir/Sterility.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Sterility.cpp -o CMakeFiles/madeline2.dir/Sterility.s
 
 src/CMakeFiles/madeline2.dir/Sterility.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Sterility.o.requires
@@ -1155,17 +1155,17 @@ src/CMakeFiles/madeline2.dir/Sterility.o.provides.build: src/CMakeFiles/madeline
 
 src/CMakeFiles/madeline2.dir/String.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/String.o: src/String.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/String.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/String.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/String.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/String.o -c /Users/kabob/workspace/madeline/src/String.cpp
 
 src/CMakeFiles/madeline2.dir/String.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/String.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/String.cpp > CMakeFiles/madeline2.dir/String.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/String.cpp > CMakeFiles/madeline2.dir/String.i
 
 src/CMakeFiles/madeline2.dir/String.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/String.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/String.cpp -o CMakeFiles/madeline2.dir/String.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/String.cpp -o CMakeFiles/madeline2.dir/String.s
 
 src/CMakeFiles/madeline2.dir/String.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/String.o.requires
@@ -1179,17 +1179,17 @@ src/CMakeFiles/madeline2.dir/String.o.provides.build: src/CMakeFiles/madeline2.d
 
 src/CMakeFiles/madeline2.dir/SVG.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/SVG.o: src/SVG.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/SVG.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/SVG.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/SVG.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/SVG.o -c /Users/kabob/workspace/madeline/src/SVG.cpp
 
 src/CMakeFiles/madeline2.dir/SVG.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/SVG.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/SVG.cpp > CMakeFiles/madeline2.dir/SVG.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/SVG.cpp > CMakeFiles/madeline2.dir/SVG.i
 
 src/CMakeFiles/madeline2.dir/SVG.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/SVG.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/SVG.cpp -o CMakeFiles/madeline2.dir/SVG.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/SVG.cpp -o CMakeFiles/madeline2.dir/SVG.s
 
 src/CMakeFiles/madeline2.dir/SVG.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/SVG.o.requires
@@ -1203,17 +1203,17 @@ src/CMakeFiles/madeline2.dir/SVG.o.provides.build: src/CMakeFiles/madeline2.dir/
 
 src/CMakeFiles/madeline2.dir/Twin.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Twin.o: src/Twin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Twin.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Twin.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Twin.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Twin.o -c /Users/kabob/workspace/madeline/src/Twin.cpp
 
 src/CMakeFiles/madeline2.dir/Twin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Twin.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Twin.cpp > CMakeFiles/madeline2.dir/Twin.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Twin.cpp > CMakeFiles/madeline2.dir/Twin.i
 
 src/CMakeFiles/madeline2.dir/Twin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Twin.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Twin.cpp -o CMakeFiles/madeline2.dir/Twin.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Twin.cpp -o CMakeFiles/madeline2.dir/Twin.s
 
 src/CMakeFiles/madeline2.dir/Twin.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Twin.o.requires
@@ -1227,17 +1227,17 @@ src/CMakeFiles/madeline2.dir/Twin.o.provides.build: src/CMakeFiles/madeline2.dir
 
 src/CMakeFiles/madeline2.dir/UnicodeScript.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/UnicodeScript.o: src/UnicodeScript.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/UnicodeScript.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/UnicodeScript.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/UnicodeScript.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/UnicodeScript.o -c /Users/kabob/workspace/madeline/src/UnicodeScript.cpp
 
 src/CMakeFiles/madeline2.dir/UnicodeScript.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/UnicodeScript.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/UnicodeScript.cpp > CMakeFiles/madeline2.dir/UnicodeScript.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/UnicodeScript.cpp > CMakeFiles/madeline2.dir/UnicodeScript.i
 
 src/CMakeFiles/madeline2.dir/UnicodeScript.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/UnicodeScript.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/UnicodeScript.cpp -o CMakeFiles/madeline2.dir/UnicodeScript.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/UnicodeScript.cpp -o CMakeFiles/madeline2.dir/UnicodeScript.s
 
 src/CMakeFiles/madeline2.dir/UnicodeScript.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/UnicodeScript.o.requires
@@ -1251,17 +1251,17 @@ src/CMakeFiles/madeline2.dir/UnicodeScript.o.provides.build: src/CMakeFiles/made
 
 src/CMakeFiles/madeline2.dir/UniqueList.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/UniqueList.o: src/UniqueList.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/UniqueList.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/UniqueList.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/UniqueList.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/UniqueList.o -c /Users/kabob/workspace/madeline/src/UniqueList.cpp
 
 src/CMakeFiles/madeline2.dir/UniqueList.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/UniqueList.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/UniqueList.cpp > CMakeFiles/madeline2.dir/UniqueList.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/UniqueList.cpp > CMakeFiles/madeline2.dir/UniqueList.i
 
 src/CMakeFiles/madeline2.dir/UniqueList.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/UniqueList.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/UniqueList.cpp -o CMakeFiles/madeline2.dir/UniqueList.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/UniqueList.cpp -o CMakeFiles/madeline2.dir/UniqueList.s
 
 src/CMakeFiles/madeline2.dir/UniqueList.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/UniqueList.o.requires
@@ -1275,17 +1275,17 @@ src/CMakeFiles/madeline2.dir/UniqueList.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/Utf8String.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Utf8String.o: src/Utf8String.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Utf8String.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Utf8String.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Utf8String.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Utf8String.o -c /Users/kabob/workspace/madeline/src/Utf8String.cpp
 
 src/CMakeFiles/madeline2.dir/Utf8String.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Utf8String.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Utf8String.cpp > CMakeFiles/madeline2.dir/Utf8String.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Utf8String.cpp > CMakeFiles/madeline2.dir/Utf8String.i
 
 src/CMakeFiles/madeline2.dir/Utf8String.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Utf8String.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Utf8String.cpp -o CMakeFiles/madeline2.dir/Utf8String.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Utf8String.cpp -o CMakeFiles/madeline2.dir/Utf8String.s
 
 src/CMakeFiles/madeline2.dir/Utf8String.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Utf8String.o.requires
@@ -1299,17 +1299,17 @@ src/CMakeFiles/madeline2.dir/Utf8String.o.provides.build: src/CMakeFiles/madelin
 
 src/CMakeFiles/madeline2.dir/Warning.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/Warning.o: src/Warning.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/Warning.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Warning.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/Warning.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/Warning.o -c /Users/kabob/workspace/madeline/src/Warning.cpp
 
 src/CMakeFiles/madeline2.dir/Warning.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/Warning.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/Warning.cpp > CMakeFiles/madeline2.dir/Warning.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/Warning.cpp > CMakeFiles/madeline2.dir/Warning.i
 
 src/CMakeFiles/madeline2.dir/Warning.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/Warning.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/Warning.cpp -o CMakeFiles/madeline2.dir/Warning.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/Warning.cpp -o CMakeFiles/madeline2.dir/Warning.s
 
 src/CMakeFiles/madeline2.dir/Warning.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/Warning.o.requires
@@ -1323,17 +1323,17 @@ src/CMakeFiles/madeline2.dir/Warning.o.provides.build: src/CMakeFiles/madeline2.
 
 src/CMakeFiles/madeline2.dir/XMLTableParser.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/XMLTableParser.o: src/XMLTableParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/XMLTableParser.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/XMLTableParser.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTableParser.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/XMLTableParser.o -c /Users/kabob/workspace/madeline/src/XMLTableParser.cpp
 
 src/CMakeFiles/madeline2.dir/XMLTableParser.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/XMLTableParser.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTableParser.cpp > CMakeFiles/madeline2.dir/XMLTableParser.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/XMLTableParser.cpp > CMakeFiles/madeline2.dir/XMLTableParser.i
 
 src/CMakeFiles/madeline2.dir/XMLTableParser.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/XMLTableParser.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTableParser.cpp -o CMakeFiles/madeline2.dir/XMLTableParser.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/XMLTableParser.cpp -o CMakeFiles/madeline2.dir/XMLTableParser.s
 
 src/CMakeFiles/madeline2.dir/XMLTableParser.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/XMLTableParser.o.requires
@@ -1347,17 +1347,17 @@ src/CMakeFiles/madeline2.dir/XMLTableParser.o.provides.build: src/CMakeFiles/mad
 
 src/CMakeFiles/madeline2.dir/XMLTagManager.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/XMLTagManager.o: src/XMLTagManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/XMLTagManager.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/XMLTagManager.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTagManager.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/XMLTagManager.o -c /Users/kabob/workspace/madeline/src/XMLTagManager.cpp
 
 src/CMakeFiles/madeline2.dir/XMLTagManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/XMLTagManager.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTagManager.cpp > CMakeFiles/madeline2.dir/XMLTagManager.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/XMLTagManager.cpp > CMakeFiles/madeline2.dir/XMLTagManager.i
 
 src/CMakeFiles/madeline2.dir/XMLTagManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/XMLTagManager.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/XMLTagManager.cpp -o CMakeFiles/madeline2.dir/XMLTagManager.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/XMLTagManager.cpp -o CMakeFiles/madeline2.dir/XMLTagManager.s
 
 src/CMakeFiles/madeline2.dir/XMLTagManager.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/XMLTagManager.o.requires
@@ -1371,17 +1371,17 @@ src/CMakeFiles/madeline2.dir/XMLTagManager.o.provides.build: src/CMakeFiles/made
 
 src/CMakeFiles/madeline2.dir/main.o: src/CMakeFiles/madeline2.dir/flags.make
 src/CMakeFiles/madeline2.dir/main.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/tmp/madeline2/madeline2/trunk/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/kabob/workspace/madeline/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/madeline2.dir/main.o"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/main.o -c /Users/kabob/tmp/madeline2/madeline2/trunk/src/main.cpp
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/madeline2.dir/main.o -c /Users/kabob/workspace/madeline/src/main.cpp
 
 src/CMakeFiles/madeline2.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/madeline2.dir/main.i"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/tmp/madeline2/madeline2/trunk/src/main.cpp > CMakeFiles/madeline2.dir/main.i
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kabob/workspace/madeline/src/main.cpp > CMakeFiles/madeline2.dir/main.i
 
 src/CMakeFiles/madeline2.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/madeline2.dir/main.s"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/tmp/madeline2/madeline2/trunk/src/main.cpp -o CMakeFiles/madeline2.dir/main.s
+	cd /Users/kabob/workspace/madeline/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kabob/workspace/madeline/src/main.cpp -o CMakeFiles/madeline2.dir/main.s
 
 src/CMakeFiles/madeline2.dir/main.o.requires:
 .PHONY : src/CMakeFiles/madeline2.dir/main.o.requires
@@ -1522,7 +1522,7 @@ src/madeline2: /usr/lib/libxml2.dylib
 src/madeline2: src/CMakeFiles/madeline2.dir/build.make
 src/madeline2: src/CMakeFiles/madeline2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable madeline2"
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/madeline2.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/kabob/workspace/madeline/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/madeline2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/madeline2.dir/build: src/madeline2
@@ -1587,10 +1587,10 @@ src/CMakeFiles/madeline2.dir/requires: src/CMakeFiles/madeline2.dir/main.o.requi
 .PHONY : src/CMakeFiles/madeline2.dir/requires
 
 src/CMakeFiles/madeline2.dir/clean:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk/src && $(CMAKE_COMMAND) -P CMakeFiles/madeline2.dir/cmake_clean.cmake
+	cd /Users/kabob/workspace/madeline/src && $(CMAKE_COMMAND) -P CMakeFiles/madeline2.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/madeline2.dir/clean
 
 src/CMakeFiles/madeline2.dir/depend:
-	cd /Users/kabob/tmp/madeline2/madeline2/trunk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kabob/tmp/madeline2/madeline2/trunk /Users/kabob/tmp/madeline2/madeline2/trunk/src /Users/kabob/tmp/madeline2/madeline2/trunk /Users/kabob/tmp/madeline2/madeline2/trunk/src /Users/kabob/tmp/madeline2/madeline2/trunk/src/CMakeFiles/madeline2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kabob/workspace/madeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kabob/workspace/madeline /Users/kabob/workspace/madeline/src /Users/kabob/workspace/madeline /Users/kabob/workspace/madeline/src /Users/kabob/workspace/madeline/src/CMakeFiles/madeline2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/madeline2.dir/depend
 
