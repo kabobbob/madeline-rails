@@ -2,5 +2,15 @@
 *.o
 *.gmo
 *.cmake
+config.h
+Makefile
 CMakeCache.txt
+src/CMakeFiles
 src/madeline2
+po/CMakeFiles
+doxygen/CMakeFiles
+doxygen/Doxyfile
+doxygen/html
+CMakeFiles/
+3rdParty/CMakeFiles/
+install_manifest.txt
