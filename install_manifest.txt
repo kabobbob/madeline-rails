@@ -1,6 +1,0 @@
-/usr/local/share/locale/fr/LC_MESSAGES/madeline2.mo
-/usr/local/share/locale/th/LC_MESSAGES/madeline2.mo
-/usr/local/share/locale/zh_CN/LC_MESSAGES/madeline2.mo
-/usr/local/share/locale/zh_TW/LC_MESSAGES/madeline2.mo
-/usr/local/docs/AUTHORS
-/usr/local/bin/madeline2
