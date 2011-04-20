@@ -80,11 +80,11 @@ void DrawingCanvas::_setHeader(){
 	//
 	// Based on actual x and y extents:
 	//
-	_header << " width=\""; 
-	_header << getXRange();
-	_header << "\" height=\"";
-	_header << getYRange();
-	_header << "\" ";
+	//_header << " width=\""; 
+	//_header << getXRange();
+	//_header << "\" height=\"";
+	//_header << getYRange();
+	//_header << "\" ";
 	
 	_header << " onload=\"init()\" >\n";
 	
@@ -112,9 +112,14 @@ void DrawingCanvas::_setHeader(){
 	//
 	_header << " </defs>\n";
 	
+  //
+  // add svgpan support
+  //
+  _header << " <script xlink:href=\"/javascripts/SVGPan.js\"/>\n";
+
 	// Set up the group tag for the whole document
 	
-	_header << " <g class=\"pedigree\" transform=\"translate(" << getXMinimum()*-1 << ")\">\n";
+	_header << " <g class=\"pedigree\" id=\"viewport\" transform=\"translate(" << getXMinimum()*-1 << ")\">\n";
 	
 }
 
@@ -137,7 +142,7 @@ void DrawingCanvas::_setJavascript(){
 	//
 	// Append the default javascript to the header:
 	//
-	_header << " <script type=\"text/javascript\" xlink:href=\"javascript/madeline.js\"></script>\n";
+	_header << " <script type=\"text/javascript\" xlink:href=\"/javascripts/madeline.js\"></script>\n";
 	
 }
 
