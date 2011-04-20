@@ -1,0 +1,6 @@
+=== madeline-rails
+
+=== About
+
+This is a fork of the madeline application developed by the University of Michigan.  It has been
+adapted to work within a rails web applicationa and support has been added for zoom/pan.
